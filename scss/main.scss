@@ -1,0 +1,12 @@
+// Your variable overrides
+$enable-rounded: false;
+$spacer: 2rem;
+
+$green:   #28a745;
+$hr-border-color: $green;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.bg-stadium {
+  background-image: url("../images/stadium.jpg");
+}
