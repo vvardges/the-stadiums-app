@@ -43,20 +43,17 @@
             <p class="lead py-2">Contact us using the form below!</p>
         </div>
 
-        <form>
+        <form action="https://formspree.io/xyyeavnl" method="POST">
             <div class="form-group">
-                <input type="text" class="form-control" placeholder="First Name">
+                <input type="text" class="form-control" placeholder="Full Name" name="name">
             </div>
             <div class="form-group">
-                <input type="text" class="form-control" placeholder="Last Name">
+                <input type="email" class="form-control" placeholder="Email" name="_replyto">
             </div>
             <div class="form-group">
-                <input type="email" class="form-control" placeholder="Email">
+                <textarea class="form-control" placeholder="Message" rows="3" name="message"></textarea>
             </div>
-            <div class="form-group">
-                <textarea class="form-control" placeholder="Message" rows="3"></textarea>
-            </div>
-            <button class="btn btn-success px-5">Submit</button>
+            <button class="btn btn-success btn-xs-block px-md-5">Submit</button>
         </form>
     </div>
 
@@ -73,9 +70,9 @@
             <div class="col-sm-6">
                 <div class="d-flex justify-content-center justify-content-sm-end h-100">
                     <nav class="nav align-self-center">
-                        <a class="nav-link text-primary" href="#"><i class="fab fa-facebook-square h1"></i></a>
-                        <a class="nav-link text-warning" href="#"><i class="fab fa-instagram h1"></i></a>
-                        <a class="nav-link text-info" href="#"><i class="fab fa-twitter h1"></i></a>
+                        <a class="nav-link text-primary" href="#"><img src="./public/images/facebook.svg" class="w-40px" alt=""></a>
+                        <a class="nav-link text-warning" href="#"><img src="./public/images/instagram.svg" class="w-40px" alt=""></a>
+                        <a class="nav-link text-info" href="#"><img src="./public/images/twitter.svg" class="w-40px" alt=""></a>
                     </nav>
                 </div>
             </div>
